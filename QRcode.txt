@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choisissez votre réseau social</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .facebook {
+      background-color: #4267B2;
+    }
+    .facebook:hover {
+      background-color: #365899;
+    }
+    .instagram {
+      background-color: #E1306C;
+    }
+    .instagram:hover {
+      background-color: #C13584;
+    }
+  </style>
+</head>
+<body>
+  <h1>Choisissez votre réseau social</h1>
+  <p>Cliquez sur un bouton pour accéder à nos réseaux sociaux :</p>
+  <a href="fb://page/61557200099936" class="button facebook">Facebook</a>
+  <a href="instagram://user?username=zolimarmaillesduchu" class="button instagram">Instagram</a>
+</body>
+</html>
